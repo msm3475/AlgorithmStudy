@@ -15,3 +15,5 @@ def selectionSort(list):
                 print("min_index : ", min_index)
 
         list[i], list[min_index] = list[min_index], list[i]
+
+selectionSort([9,10,5,3,2])
